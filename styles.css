@@ -1,0 +1,293 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+/* Header and Navbar */
+.header {
+    background-image: url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg'); /* Replace with a Netflix-like background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e50914;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.search-box input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #f40612;
+}
+
+/* Movie Categories */
+.movie-category {
+    padding: 20px 50px;
+}
+
+.movie-category h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.movie-list {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.movie-item img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.movie-item img:hover {
+    transform: scale(1.1);
+}
+.movie{
+    display: flex;
+    justify-content: center;
+}
+/* Footer Styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px 20px 20px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #888;
+}
+/* Reasons to Join Section */
+.reasons-to-join {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reasons-to-join h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.reasons-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+}
+
+.reason-item {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.reason-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.reason-item p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.reasons-to-join .cta-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reasons-to-join .cta-button:hover {
+    background-color: #f40612;
+}
+/* FAQ Section */
+.faq-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #444;
+}
+
+.faq-answer {
+    padding: 20px;
+    background-color: #222;
+    color: #ccc;
+    display: none;
+    font-size: 16px;
+}
+
+.faq-answer.active {
+    display: block;
+}
+
+.faq-section .cta-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.faq-section .cta-button:hover {
+    background-color: #f40612;
+}
